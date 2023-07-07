@@ -1,25 +1,19 @@
 import { toggleRenderComponent } from "./entry-helpers";
 
-const componentName = 'Tidy TODOs'
-const codeBlockUID = 'roam-render-tidy-todos-cljs';
-const cssBlockUID = 'roam-render-tidy-todos-css';
+const componentName = 'Tag Cycle Component'
+const codeBlockUID = 'roam-render-tag-cycle-cljs';
+const cssBlockUID = 'roam-render-tag-cycle-css';
 const renderString = `{{[[roam/render]]:((${codeBlockUID}))`;
-const replacementString = '{{tidy-todos}}';
-const version = 'v9';
-const titleblockUID = 'roam-render-tidy-todos';
-const cssBlockParentUID = 'tidy-todos-css-parent';
+const replacementString = '{{tag-cycle}}';
+const version = 'v5';
+const titleblockUID = 'roam-render-tag-cycle';
+const cssBlockParentUID = 'tag-cycle-css-parent';
 
 function onload({extensionAPI}) {
   const panelConfig = {
     tabTitle: componentName,
     settings: [
-        // {id:		  "strikethrough",
-        //   name:		"Strikethrough DONE tasks",
-        //   description: "Adds CSS to strike through DONE tasks",
-        //   action:	  {type:	 "switch",
-        //                 onChange: (evt) => { 
-        //                   // toggleStrikethroughCSS(evt.target.checked); 
-        //                   console.log("toggle strikethrough CSS!", evt.target.checked); }}}
+      
     ]
   };
 

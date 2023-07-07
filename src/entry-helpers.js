@@ -65,7 +65,7 @@ function createRenderBlock(renderPageName, titleblockUID, version, codeBlockUID,
             {"parent-uid": templateBlockUID, 
             "order": 0}, 
         "block": 
-            {"string": `{{[[roam/render]]:((${codeBlockUID})) tidy}}`,
+            {"string": `{{[[roam/render]]:((${codeBlockUID})) ((CYCLE_OPTIONS_PARENT_BLOCK_UID)) }} #[[]]`,
             "uid":renderBlockUID}})
 
     // create code header block

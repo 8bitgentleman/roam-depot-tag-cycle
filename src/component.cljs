@@ -40,10 +40,10 @@
   (let [tags (get-options parent-uid)
         block-string (get-block-string uid)]
     (doseq [[index tag] (map-indexed vector tags)]
-      (let [re (re-pattern (str "#\\[\\[" tag "\\]\\](?=( |$))"))]
+      (let [re (re-pattern (str "\\[\\[" tag "\\]\\](?=( |$))"))]
         (when (re-find re block-string)
           (let [rep-index (mod (inc index) (count tags))
-                new-block-string (clojure.string/replace block-string re (str "#[[" (nth tags rep-index) "]]"))]
+                new-block-string (clojure.string/replace block-string re (str "[[" (nth tags rep-index) "]]"))]
             (update-block-string uid new-block-string)))))
   )
 )
