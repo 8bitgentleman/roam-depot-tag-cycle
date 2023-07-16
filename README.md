@@ -1,9 +1,9 @@
 A Roam Research component to cycle through a list of different tags or pages with just a click. Great for  attributes or projects who's status changes.
 
 ## Examples
-<img src="https://github.com/8bitgentleman/roam-depot-tag-cycle/raw/main/example4.gif" width="600"></img>
+<img src="https://github.com/8bitgentleman/roam-depot-tag-cycle/raw/main/example4.gif" width="200"></img>
 
-<img src="https://github.com/8bitgentleman/roam-depot-tag-cycle/raw/main/example2.gif" width="600"></img>
+<img src="https://github.com/8bitgentleman/roam-depot-tag-cycle/raw/main/example2.gif" width="200"></img>
 
 ## Setup 
 First make sure that __User code__ is enabled in your settings. This allows custom components in your graph.
@@ -19,4 +19,4 @@ Create a list of tags or pages you want to cycle through (this can be saved anyw
 
 <img src="https://github.com/8bitgentleman/roam-depot-tag-cycle/raw/main/explainer.png" max-width="300"></img>
 
-<img src="https://github.com/8bitgentleman/roam-depot-tag-cycle/raw/main/example3.png" max-width="300"></img>
+<img src="https://github.com/8bitgentleman/roam-depot-tag-cycle/raw/main/example3.gif" max-width="300"></img>
