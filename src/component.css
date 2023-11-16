@@ -3,6 +3,8 @@
     background:rgb(230,242,247);
     border-radius: 3px 0 0 3px;
     padding: 2px 3px 3px 4px;
+    user-select: none;
+    cursor: pointer;
   }
   .dont-focus-block:has(span.cycle-button)+[data-tag] {
     background:rgb(230,242,247);
