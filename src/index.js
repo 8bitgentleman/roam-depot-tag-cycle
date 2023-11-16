@@ -5,7 +5,7 @@ const codeBlockUID = 'roam-render-tag-cycle-cljs';
 const cssBlockUID = 'roam-render-tag-cycle-css';
 const renderString = `{{[[roam/render]]:((${codeBlockUID}))`;
 const replacementString = '{{tag-cycle}}';
-const version = 'v5';
+const version = 'v6';
 const titleblockUID = 'roam-render-tag-cycle';
 const cssBlockParentUID = 'tag-cycle-css-parent';
 
